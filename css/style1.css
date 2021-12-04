@@ -1,93 +1,71 @@
-body {
-  height: 100vh;
-  margin: 0px;
-  font-family: 'Segoe UI';
-  font-size: 2vh;
-  background: #2B3D9A;
-  color: white;
+body{
+    height: 100vh;
+    margin:0px;
+    font-family: 'Segoe UI';
+    font-size: 2vh;
+    background: #2B3D9A;
+    color: white;
+    h1{
+        font-size: 3vh;
+    }
+    p{
+        font-size: 3vh;
+        font-family: 'Segoe UI';
+    }
+    a{
+        text-decoration: none;
+        color:black
+    }
 }
-
-body h1 {
-  font-size: 3vh;
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
-
-body p {
-  font-size: 3vh;
-  font-family: 'Segoe UI';
+.nav{
+    background: #332C70;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh;
+    a{
+        color: white;
+    }
+    ul{
+        display: flex;
+        a{
+            display: block;
+            padding:0 1vh;
+            font-size: 1.5vh;
+        }
+    }
+    a{
+        font-size: 2vh;
+    }
 }
-
-body a {
-  text-decoration: none;
-  color: black;
+.banner{
+    margin: 0;
+    background: #2B3D9A;
+    color:white;
+    text-align: center;
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        font-size: 5vh;
+    }
 }
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.foot{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #332C70;
+    color:white;
+    text-align: center;
+    padding: 1vh;
+    margin-top: 5vh;
+    p{
+        font-size: 2vh;
+    }
 }
-
-.nav {
-  background: #332C70;
-  color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 2vh;
-}
-
-.nav a {
-  color: white;
-}
-
-.nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.nav ul a {
-  display: block;
-  padding: 0 1vh;
-  font-size: 1.5vh;
-}
-
-.nav a {
-  font-size: 2vh;
-}
-
-.banner {
-  margin: 0;
-  background: #2B3D9A;
-  color: white;
-  text-align: center;
-}
-
-.banner h1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  font-size: 5vh;
-}
-
-.foot {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background: #332C70;
-  color: white;
-  text-align: center;
-  padding: 1vh;
-  margin-top: 5vh;
-}
-/*# sourceMappingURL=style1.css.map */
