@@ -1,20 +1,20 @@
-body {
+html, body {
   height: 100vh;
   margin: 0px;
   font-family: 'Segoe UI';
   font-size: 2vw;
 }
 
-body h1 {
+html h1, body h1 {
   font-size: 3vw;
 }
 
-body pre {
+html pre, body pre {
   font-size: 3vw;
   font-family: 'Segoe UI';
 }
 
-body a {
+html a, body a {
   text-decoration: none;
   color: black;
 }
@@ -92,7 +92,7 @@ ul {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  padding-bottom: 15vh;
+  padding-bottom: 20vh;
   font-size: 2vh;
   color: white;
 }

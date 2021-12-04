@@ -1,4 +1,4 @@
-body{
+html, body{
     height: 100vh;
     margin:0px;
     font-family: 'Segoe UI';
@@ -61,7 +61,7 @@ ul{
     display: flex;
     justify-content: center;
     align-items:flex-end;
-    padding-bottom: 15vh;
+    padding-bottom: 20vh;
     font-size: 2vh;
     color: white;
 }
