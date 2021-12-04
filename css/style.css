@@ -364,8 +364,9 @@ hr {
   text-align: center;
   padding: 1vw;
   margin-top: 5vw;
-  p{
-    font-size: 2vh;
-  }
+}
+
+.foot p {
+  font-size: 2vh;
 }
 /*# sourceMappingURL=style.css.map */
