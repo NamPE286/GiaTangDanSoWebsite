@@ -1,0 +1,93 @@
+body {
+  height: 100vh;
+  margin: 0px;
+  font-family: 'Segoe UI';
+  font-size: 2vh;
+  background: #2B3D9A;
+  color: white;
+}
+
+body h1 {
+  font-size: 3vh;
+}
+
+body p {
+  font-size: 3vh;
+  font-family: 'Segoe UI';
+}
+
+body a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background: #332C70;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2vh;
+}
+
+.nav a {
+  color: white;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav ul a {
+  display: block;
+  padding: 0 1vh;
+  font-size: 1.5vh;
+}
+
+.nav a {
+  font-size: 2vh;
+}
+
+.banner {
+  margin: 0;
+  background: #2B3D9A;
+  color: white;
+  text-align: center;
+}
+
+.banner h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-size: 5vh;
+}
+
+.foot {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #332C70;
+  color: white;
+  text-align: center;
+  padding: 1vh;
+  margin-top: 5vh;
+}
+/*# sourceMappingURL=style1.css.map */

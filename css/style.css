@@ -1,0 +1,368 @@
+body {
+  height: 100vh;
+  margin: 0px;
+  font-family: 'Segoe UI';
+  font-size: 2vw;
+}
+
+body h1 {
+  font-size: 3vw;
+}
+
+body pre {
+  font-size: 3vw;
+  font-family: 'Segoe UI';
+}
+
+body a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background: #332C70;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2vh;
+}
+
+.nav a {
+  color: white;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav ul a {
+  display: block;
+  padding: 0 1vh;
+  font-size: 1.5vh;
+}
+
+.nav a {
+  font-size: 2vh;
+}
+
+.banner {
+  margin: 0;
+  background: #2B3D9A;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.banner h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-size: 5vh;
+}
+
+.inc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-bottom: 10vh;
+  font-size: 2vh;
+  color: white;
+}
+
+.co {
+  font-size: 80%;
+}
+
+.danSo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.danSoText {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  text-align: center;
+  font-size: 5vw;
+}
+
+.danSo2021 {
+  background: white;
+  margin-left: 5%;
+  width: 32vw;
+  height: 32vw;
+  border-radius: 1em;
+  text-align: center;
+  -webkit-box-shadow: 0em 0em 1em #707070;
+          box-shadow: 0em 0em 1em #707070;
+}
+
+.danSo2021 h1 {
+  margin-top: 20%;
+  font-size: 5vw;
+}
+
+.danSo2021 a {
+  font-size: 2.5vw;
+}
+
+.danSo2021 .co {
+  font-size: 2vw;
+}
+
+.soVoi {
+  font-size: 2.5vw;
+  margin: auto;
+  text-align: center;
+}
+
+.danSo2050 {
+  background: white;
+  margin-right: 5%;
+  width: 32vw;
+  height: 32vw;
+  border-radius: 1em;
+  text-align: center;
+  -webkit-box-shadow: 0em 0em 1em #707070;
+          box-shadow: 0em 0em 1em #707070;
+}
+
+.danSo2050 h1 {
+  margin-top: 20%;
+  font-size: 5vw;
+}
+
+.danSo2050 a {
+  font-size: 2.5vw;
+}
+
+.danSo2050 .co {
+  font-size: 2vw;
+}
+
+hr {
+  display: block;
+  border: 0;
+  border-top: 0.1em solid #ccc;
+  margin: 5%;
+  padding: 0;
+}
+
+.ded {
+  margin-top: 5.5vw;
+}
+
+.tiLeDanSoOThanhPho {
+  background: white;
+  margin-left: 5%;
+  width: 89vw;
+  height: 18vw;
+  border-radius: 1em;
+  text-align: center;
+  -webkit-box-shadow: 0em 0em 1em #707070;
+          box-shadow: 0em 0em 1em #707070;
+}
+
+.tiLeDanSoOThanhPho h1 {
+  padding-top: 2.5%;
+}
+
+.chart1 {
+  height: 50%;
+  width: 50%;
+}
+
+.chart2 {
+  height: 50%;
+  width: 50%;
+}
+
+.chart3 {
+  height: 50%;
+  width: 50%;
+}
+
+.chart4 {
+  height: 50%;
+  width: 50%;
+}
+
+.tiLeDanSoOThanhPhoYear {
+  margin-right: 4vw;
+  margin-bottom: 2vw;
+}
+
+.tiLeDanSoOThanhPhoP {
+  margin-left: 4vw;
+}
+
+.row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5%;
+}
+
+.row1 .tiSuatSinh {
+  background: white;
+  margin-left: 5vw;
+  width: 41vw;
+  height: 32vw;
+  border-radius: 1em;
+  text-align: center;
+  font-size: 3vw;
+  -webkit-box-shadow: 0em 0em 1em #707070;
+          box-shadow: 0em 0em 1em #707070;
+}
+
+.row1 .tiSuatSinh p {
+  padding-top: 2.5vw;
+}
+
+.row1 .tiSuatSinh a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+
+.row1 .tiSuatSinhContent {
+  margin-top: 8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.row1 .tiSuatSinh1994 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20%;
+}
+
+.row1 .tiSuatSinh2019 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 20%;
+}
+
+.row1 .vL {
+  display: block;
+  border: 0;
+  border-left: 0.1em solid #ccc;
+  padding: 0;
+}
+
+.row1 .tiLeTreDuoi5TuoiTuVong {
+  background: white;
+  margin-right: 5vw;
+  width: 41vw;
+  height: 32vw;
+  border-radius: 1em;
+  text-align: center;
+  font-size: 3vw;
+  -webkit-box-shadow: 0em 0em 1em #707070;
+          box-shadow: 0em 0em 1em #707070;
+}
+
+.row1 .tiLeTreDuoi5TuoiTuVong p {
+  padding-top: 2.5vw;
+}
+
+.row1 .tiLeTreDuoi5TuoiTuVong a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+
+.row1 .tiLeTreDuoi5TuoiTuVongContent {
+  margin-top: 8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.row1 .tiLeTreDuoi5TuoiTuVong1994 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20%;
+}
+
+.row1 .tiLeTreDuoi5TuoiTuVong2019 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 20%;
+}
+
+.row1 .vL {
+  display: block;
+  border: 0;
+  border-left: 0.1em solid #ccc;
+  padding: 0;
+}
+
+.idk1 {
+  font-size: 2.1vw;
+}
+
+.foot {
+  background: #332C70;
+  color: white;
+  text-align: center;
+  padding: 1vw;
+  margin-top: 5vw;
+}
+/*# sourceMappingURL=style.css.map */
