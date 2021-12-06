@@ -3,6 +3,7 @@ html, body {
   margin: 0px;
   font-family: 'Segoe UI';
   font-size: 2vw;
+  overflow-x: hidden;
 }
 
 html h1, body h1 {
