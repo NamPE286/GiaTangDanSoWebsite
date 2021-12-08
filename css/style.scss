@@ -1,4 +1,12 @@
 html, body{
+    @media screen and (max-width: 1200px) {
+        .graph1{
+            height: 30vw;
+        }
+        #fix2{
+            margin-top: 60vw;
+        }
+    }
     height: 100vh;
     margin:0px;
     font-family: 'Segoe UI';
@@ -15,6 +23,8 @@ html, body{
         color:black
     }
 }
+
+
 ul{
     list-style-type: none;
     margin: 0;

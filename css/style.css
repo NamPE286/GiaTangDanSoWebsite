@@ -5,6 +5,15 @@ html, body {
   font-size: 2vw;
 }
 
+@media screen and (max-width: 1200px) {
+  html .graph1, body .graph1 {
+    height: 30vw;
+  }
+  html #fix2, body #fix2 {
+    margin-top: 60vw;
+  }
+}
+
 html h1, body h1 {
   font-size: 3vw;
 }
