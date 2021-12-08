@@ -364,9 +364,151 @@ hr {
   text-align: center;
   padding: 1vw;
   margin-top: 5vw;
+  clear: both;
 }
 
 .foot p {
   font-size: 2vh;
+}
+
+.ttqtdsTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  text-align: center;
+  font-size: 5vw;
+  margin-bottom: 2em;
+}
+
+.ttqtdsP1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 40vw;
+  margin-right: 5vw;
+}
+
+.ttqtdsP2 {
+  float: left;
+  width: 40vw;
+  margin-left: 5vw;
+  margin-top: 5vw;
+}
+
+#fix1 {
+  margin-top: 2.5vw;
+}
+
+#fix2 {
+  margin-top: 55vw;
+  text-align: center;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.graph1 {
+  width: 40%;
+  height: 40%;
+  float: right;
+  margin-right: 5vw;
+  margin-top: 15vw;
+}
+
+.condom {
+  height: 18vw;
+  width: 18vw;
+  margin-top: 2vw;
+}
+
+.gdgt {
+  height: 18vw;
+  width: 18vw;
+  margin-top: 2vw;
+}
+
+.row2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5%;
+}
+
+.row2 .cc {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background: white;
+  margin-left: 5vw;
+  width: 41vw;
+  height: 35vw;
+  border-radius: 1em;
+  text-align: center;
+  font-size: 2.5vw;
+  -webkit-box-shadow: 0em 0em 1em #707070;
+          box-shadow: 0em 0em 1em #707070;
+}
+
+.row2 .cc a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+
+.row2 .ccContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.row2 .aa {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background: white;
+  margin-right: 5vw;
+  width: 41vw;
+  height: 35vw;
+  border-radius: 1em;
+  text-align: center;
+  font-size: 2.5vw;
+  -webkit-box-shadow: 0em 0em 1em #707070;
+          box-shadow: 0em 0em 1em #707070;
+}
+
+.row2 .aa a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.row2 .aaContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=style.css.map */
